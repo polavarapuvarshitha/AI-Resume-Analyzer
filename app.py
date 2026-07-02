@@ -10,3 +10,4 @@ uploaded_file = st.file_uploader("Upload your Resume (PDF)", type=["pdf"])
 if uploaded_file:
     st.success("Resume uploaded successfully!")
     st.write("Filename:", uploaded_file.name)
+    
